@@ -1,4 +1,5 @@
-
+#Requriement setup
+#!pip install diffusers transformers huggingface_hub gradio
 from huggingface_hub import login
 from diffusers import DiffusionPipeline
 import torch
